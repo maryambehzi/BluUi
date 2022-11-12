@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="model"
+            type="com.example.bluui.TransactionModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_transaction_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:setTransactionIcon="@{model}"
+            app:setBackground="@{model}"
+            android:padding="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_transaction_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:setTitle="@{model}"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/img_transaction_icon"
+            app:layout_constraintTop_toTopOf="@+id/img_transaction_icon"
+            app:layout_constraintBottom_toTopOf="@id/text_transaction_date"
+            tools:text="افزایش موجودی"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_transaction_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:setDate="@{model}"
+            app:layout_constraintBottom_toBottomOf="@+id/img_transaction_icon"
+            app:layout_constraintEnd_toStartOf="@+id/img_transaction_icon"
+            app:layout_constraintTop_toBottomOf="@+id/text_transaction_title"
+            tools:text="سه شنبه 31 خرداد"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_transaction_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/vazir"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:setAmount="@{model}"
+            app:setAmountBackground="@{model}"
+            tools:text="50000000 ریال" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
