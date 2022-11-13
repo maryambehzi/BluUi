@@ -4,10 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-night-hdpi/gray_icon_bg.xml" value="0.2925" />
+        <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-night-hdpi/green_icon_bg.xml" value="0.1885" />
         <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-night-hdpi/header_img.xml" value="0.2675" />
+        <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-night-hdpi/rectangle_bg.xml" value="0.1885" />
         <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-night-hdpi/recycler_bg.xml" value="0.1885" />
         <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-notnight-hdpi/gray_icon_bg.xml" value="0.2925" />
+        <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-notnight-hdpi/green_icon_bg.xml" value="0.1885" />
         <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-notnight-hdpi/header_img.xml" value="0.1" />
+        <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-notnight-hdpi/rectangle_bg.xml" value="0.1885" />
+        <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-notnight-hdpi/recycler_bg.xml" value="0.1885" />
         <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-v24/add.xml" value="0.2675" />
         <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-v24/chart.xml" value="0.2675" />
         <entry key="..\:/Users/m.behzadi/Desktop/AndroidProjects/BluUi/app/src/main/res/drawable-v24/download.xml" value="0.2675" />
