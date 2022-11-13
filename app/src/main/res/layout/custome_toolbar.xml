@@ -36,6 +36,7 @@
             android:layout_height="wrap_content"
             android:textColor="?android:textColorPrimary"
             android:text="@string/title_home"
+            android:fontFamily="@font/vazir"
             app:layout_constraintTop_toTopOf="@id/icon_notification"
             app:layout_constraintBottom_toBottomOf="@id/icon_notification"
             app:layout_constraintEnd_toStartOf="@id/icon_download"

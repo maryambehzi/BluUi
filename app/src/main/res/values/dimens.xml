@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="defaultOverlay">-12dp</dimen>
+    <dimen name="defaultOverlay">-9dp</dimen>
 
     <dimen name="xsmallMargin">4dp</dimen>
     <dimen name="smallMargin">8dp</dimen>
