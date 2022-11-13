@@ -11,4 +11,7 @@
 
     <color name="textColorPrimary">#253035</color>
     <color name="textColorSecondary">#718E9C</color>
+
+    <color name="greenIconTint">#154641</color>
+    <color name="iconTint">#787672</color>
 </resources>

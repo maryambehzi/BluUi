@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="defaultOverlay">-12dp</dimen>
+
+    <dimen name="xsmallMargin">4dp</dimen>
+    <dimen name="smallMargin">8dp</dimen>
+    <dimen name="normalMargin">16dp</dimen>
+    <dimen name="largeMargin">32dp</dimen>
+    <dimen name="xlargeMargin">48dp</dimen>
+    <dimen name="xxlargeMargin">64dp</dimen>
+
+    <dimen name="headerHeight">320dp</dimen>
+
+    <dimen name="iconDimension">24dp</dimen>
+
+    <dimen name="normalText">22dp</dimen>
+</resources>

@@ -13,16 +13,16 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:padding="@dimen/normalMargin">
 
         <ImageView
             android:id="@+id/img_transaction_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="@dimen/smallMargin"
             app:setTransactionIcon="@{model}"
             app:setBackground="@{model}"
-            android:padding="4dp"
+            android:padding="@dimen/xsmallMargin"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
@@ -31,7 +31,7 @@
             android:id="@+id/text_transaction_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="@dimen/smallMargin"
             android:textColor="@color/textColorPrimary"
             app:setTitle="@{model}"
             android:textStyle="bold"
@@ -44,7 +44,7 @@
             android:id="@+id/text_transaction_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="@dimen/smallMargin"
             android:textColor="@color/textColorSecondary"
             app:setDate="@{model}"
             app:layout_constraintBottom_toBottomOf="@+id/img_transaction_icon"
@@ -56,7 +56,7 @@
             android:id="@+id/text_transaction_amount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="@dimen/smallMargin"
             android:fontFamily="@font/vazir"
             android:textColor="@color/textColorPrimary"
             app:layout_constraintBottom_toBottomOf="parent"

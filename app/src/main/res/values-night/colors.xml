@@ -11,4 +11,7 @@
 
     <color name="textColorPrimary">#E7EAEF</color>
     <color name="textColorSecondary">#9FABBE</color>
+
+    <color name="greenIconTint">#C9EDE8</color>
+    <color name="iconTint">#C5C6D0</color>
 </resources>

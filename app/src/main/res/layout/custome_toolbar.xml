@@ -9,13 +9,13 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="32dp">
+        android:paddingTop="@dimen/largeMargin">
 
         <ImageButton
             android:id="@+id/icon_support"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/normalMargin"
             android:background="@drawable/support"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -24,8 +24,8 @@
             android:id="@+id/icon_notification"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:layout_marginStart="4dp"
+            android:layout_margin="@dimen/normalMargin"
+            android:layout_marginStart="@dimen/xsmallMargin"
             android:background="@drawable/notification"
             app:layout_constraintStart_toEndOf="@id/icon_support"
             app:layout_constraintTop_toTopOf="parent" />
@@ -45,7 +45,7 @@
             android:id="@+id/icon_download"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/normalMargin"
             android:background="@drawable/download"
             app:layout_constraintEnd_toStartOf="@id/icon_search"
             app:layout_constraintTop_toTopOf="parent" />
@@ -54,7 +54,7 @@
             android:id="@+id/icon_search"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/normalMargin"
             android:background="@drawable/search"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
